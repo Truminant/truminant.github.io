@@ -1,6 +1,6 @@
 ---
 title: Ongoal
-subtitle: Website & Order Management System
+subtitle: Website, Order Management System, Marketplace integrations
 layout: default
 modal-id: 3
 date: 2021-11-14
