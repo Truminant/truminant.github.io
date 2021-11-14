@@ -1,24 +1,49 @@
-Install pre-reqs
+Truminant Website
 ====================
 
-Windows:
-```sh
-choco install ruby
+# Setup
+
+###Install ruby
+
+First check if ruby is installed:
+```
+ruby --version
+```
+This should return a version. If ruby is not installed, download latest ruby.
+
+###Install bundler
+```
 gem install bundler
+```
+
+On Windows machines this is prone to fail with an ssl cert error.  In that case edit/create ~/.gemrc to look like this and try again:
+```
+---
+:backtrace: false
+:bulk_threshold: 1000
+:sources: ["http://rubygems.org"]
+:update_sources: true
+:verbose: true
+```
+
+###Run bundle install
+Go to the project root folder and run
+```
 bundle install
 ```
 
-## Debug
-```sh
+# Debug
+From project root folder run
+```
 bundle exec jekyll serve
 ```
 
-Agency Jekyll theme
-====================
+# Release
+Just push to master and the changes will be live on https://plugandtrade.github.io/ within moments.
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+# Theme
 
-# How to use
+Site theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
 
 ###Portfolio 
 
@@ -36,10 +61,6 @@ Team members and info are in '_config.yml'
 
 Images are in '/img/team/'
 
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
