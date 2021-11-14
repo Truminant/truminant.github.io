@@ -5,7 +5,7 @@ layout: default
 modal-id: 3
 date: 2021-11-14
 img: ongoal.jpg
-thumbnail: ongoal-thumbnail.png
+thumbnail: ongoal-thumbnail.jpg
 alt: image-alt
 project-date: 2017 ongoing
 client: Ongoal
