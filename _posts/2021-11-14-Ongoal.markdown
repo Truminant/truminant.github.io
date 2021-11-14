@@ -1,0 +1,15 @@
+---
+title: Ongoal
+subtitle: Website & Order Management System
+layout: default
+modal-id: 3
+date: 2021-11-14
+img: ongoal.jpg
+thumbnail: ongoal-thumbnail.png
+alt: image-alt
+project-date: 2017 ongoing
+client: Ongoal
+category: Website & Order Management System
+description: Ongoal has since 2017 grown to be an important e-tailer in the sporting goods space.
+
+---
