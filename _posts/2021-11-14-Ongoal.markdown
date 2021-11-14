@@ -9,7 +9,7 @@ thumbnail: ongoal-thumbnail.jpg
 alt: image-alt
 project-date: 2017 ongoing
 client: Ongoal
-category: Website & Order Management System
+category: Website, Order Management System, Marketplace integrations
 description: Ongoal has since 2017 grown to be an important e-tailer in the sporting goods space.
 
 ---
